@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/** COPYRIGHT 2015, USTC SINOVATE SOFTWARE ALL RIGHTS RESERVED. by SINOVATE-UED. */
+/* foundation*/
+.shown { display: block !important; }
+
+.none, .hidden { display: none !important; }
+
+.cf:after, .clearfix:after { content: '\0020'; display: block; height: 0; clear: both; visibility: hidden; }
+
+.cf, .clearfix { zoom: 1; }
+
+.fl, .left { float: left; }
+
+.fr, .right { float: right; }
+
+.ttct { text-align: center; }
+
+.ttl { text-align: left !important; }
+
+.ttr { text-align: right !important; }
+
+.ttbd { font-weight: bold; }
+
+*, *:before, *:after { -moz-box-sizing: inherit; -webkit-box-sizing: inherit; box-sizing: inherit; -webkit-text-size-adjust: none; }
+
+html { background: #fff; font-family: "微软雅黑"; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { font-size: 100%; }
+
+a { font-family: "微软雅黑"; color: #333; }
+a:hover, a:focus { cursor: pointer; color: #666; }
+
+img { height: auto; max-width: 100%; }
+
+table { width: 100%; }
+
+/* foundation,end*/
+/* component*/
+.tab .hd-rap { font-size: 14px; border-bottom: 1px solid #90c0f2; }
+.tab .hd-rap a { color: #555; }
+.tab .hd-rap a.it { display: block; float: left; padding: 4px 22px; background-color: #eaeaea; margin-right: 5px; }
+.tab .hd-rap a.it:hover { text-decoration: none; }
+.tab .hd-rap a.it.act { background-color: #5ca6f3; color: #fff; }
+.tab .hd-rap .more-rap { padding: 4px 12px; float: right; }
+.tab .hd-rap a.more { padding: 4px 12px; float: right; }
+
+.tab-T1 .hd-rap { font-size: 16px; }
+
+.table { border: 1px solid #ccc; }
+.table thead { font-size: 12px; font-weight: bold; color: #888; }
+.table thead tr th { padding: 5px; }
+.table tbody { font-size: 14px; font-weight: normal; color: #000; }
+.table tbody tr td { padding: 5px; }
+
+.table-T1 { border-width: 0px; }
+
+/* custom_plugin*/
+.soga-box { color: #333; }
+
+.in .soga-box { color: #1DA2EB; }
+
+/* custom_plugin,end*/
+/* component,end*/
+/* structure*/
+/* index(in),首页*/
+/* in-top-rap*/
+.in-top-rap { background-color: #9BD7FB; }
+.in-top-rap .in-top { width: 1000px; margin: 0px auto; height: 60px; }
+
+/* in-main*/
+.in-main { width: 1000px; background-color: #fff; margin: 0px auto; }
+.in-plate .box, .in-plate .box1, .in-plate .box2, .in-plate .box3, .in-plate .box4 { width: 100px; height: 100px; margin: 10px; border: 1px solid #999; float: left; }
+.in-plate .box1 { background: url('../image/ddbox_1-s9313063b1a.png') 12px 12px no-repeat; }
+.in-plate .box1:hover { background-position: -174px 12px; cursor: pointer; }
+.in-plate .box1.act { background-position: -81px 12px; }
+.in-plate .box2 { background: url('../image/ddbox_2-sf6dd2f5b35.png') 12px 12px no-repeat; }
+.in-plate .box2:hover { background-position: -171px 12px; cursor: pointer; }
+.in-plate .box2.act { background-position: -78px 12px; }
+.in-plate .box3 { background: url('../image/ddbox_3-s667c7064cc.png') 12px 12px no-repeat; }
+.in-plate .box3:hover { background-position: -171px 12px; cursor: pointer; }
+.in-plate .box3.act { background-position: -78px 12px; }
+.in-plate .box4 { background: url('../image/ddbox_4-s96f3096235.png') 12px 12px no-repeat; }
+.in-plate .box4:hover { background-position: -171px 12px; cursor: pointer; }
+.in-plate .box4.act { background-position: -78px 12px; }
+
+/* in-foot*/
+.in-foot { font-size: 14px; color: #555; background-color: #eaeaea; padding: 15px 0px; }
+.in-foot p { text-align: center; line-height: 20px; }
+
+/* index(in),首页,end*/
+/* structure,end*/
+
+/*# sourceMappingURL=main.css.map */
