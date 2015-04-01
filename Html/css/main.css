@@ -65,7 +65,17 @@ table { width: 100%; }
 /* index(in),首页*/
 /* in-top-rap*/
 .in-top-rap { background-color: #9BD7FB; }
-.in-top-rap .in-top { width: 1000px; margin: 0px auto; height: 60px; }
+.in-top { width: 1000px; margin: 0px auto; height: 60px; }
+.in-top ul li { float: left; }
+.in-top ul a { display: block; font-size: 16px; color: #333; }
+.in-top ul a:hover { text-decoration: none; }
+.in-top ul .it { padding: 10px 30px; text-indent: 1em; }
+.in-top ul .it-1.it { background: url('../image/S_icons_nav-s42940a83f1.png') 8px 15px no-repeat; }
+.in-top ul .it-2.it { background: url('../image/S_icons_nav-s42940a83f1.png') 8px -21px no-repeat; }
+.in-top ul .it-3.it { background: url('../image/S_icons_nav-s42940a83f1.png') 8px -57px no-repeat; }
+.in-top ul .it-4.it { background: url('../image/S_icons_nav-s42940a83f1.png') 8px -93px no-repeat; }
+.in-top ul .it-5.it { background: url('../image/S_icons_nav-s42940a83f1.png') 8px -129px no-repeat; }
+.in-top ul .it-6.it { background: url('../image/S_icons_nav-s42940a83f1.png') 10px -165px no-repeat; }
 
 /* in-main*/
 .in-main { width: 1000px; background-color: #fff; margin: 0px auto; }
