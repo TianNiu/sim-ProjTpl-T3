@@ -34,16 +34,21 @@ $in-body_width: 1000px;
             float: left;
         }
         .box1 {
-            @include compass-singleimg-multistate(#{"ddbox_1"}, $cursor: pointer, $G_offset-x: 12px, $G_offset-y: 12px, $sprite-base-class: ".box");
+            @include compass-singleimg-multistate(#{"ddbox_1"}, $cursor: pointer, $G_offset-x: 50%, $G_offset-y: 12px, $sprite-base-class: ".box");
         }
         .box2 {
-            @include compass-singleimg-multistate(#{"ddbox_2"}, $cursor: pointer, $G_offset-x: 12px, $G_offset-y: 12px, $sprite-base-class: ".box");
+            @include compass-singleimg-multistate(#{"ddbox_2"}, $cursor: pointer, $G_offset-x: 50%, $G_offset-y: 12px, $sprite-base-class: ".box");
+            width: 280px;
+            //height: 77px;
+       
         }
         .box3 {
-            @include compass-singleimg-multistate(#{"ddbox_3"}, $cursor: pointer, $G_offset-x: 12px, $G_offset-y: 12px, $sprite-base-class: ".box");
+            @include compass-singleimg-multistate(#{"ddbox_3"}, $cursor: pointer, $G_offset-x: 50%, $G_offset-y: 12px, $sprite-base-class: ".box");
+            width: 200px;
         }
         .box4 {
-            @include compass-singleimg-multistate(#{"ddbox_4"}, $cursor: pointer, $G_offset-x: 12px, $G_offset-y: 12px, $sprite-base-class: ".box");
+            @include compass-singleimg-multistate(#{"ddbox_4"}, $cursor: pointer, $G_offset-x: 50%, $G_offset-y: 12px, $sprite-base-class: ".box");
+            width: 150px;
         }
     }
     @at-root .in-case {}

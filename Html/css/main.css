@@ -70,18 +70,18 @@ table { width: 100%; }
 /* in-main*/
 .in-main { width: 1000px; background-color: #fff; margin: 0px auto; }
 .in-plate .box, .in-plate .box1, .in-plate .box2, .in-plate .box3, .in-plate .box4 { width: 100px; height: 100px; margin: 10px; border: 1px solid #999; float: left; }
-.in-plate .box1 { background: url('../image/ddbox_1-s9313063b1a.png') 12px 12px no-repeat; }
-.in-plate .box1:hover { background-position: -174px 12px; cursor: pointer; }
-.in-plate .box1.act { background-position: -81px 12px; }
-.in-plate .box2 { background: url('../image/ddbox_2-sf6dd2f5b35.png') 12px 12px no-repeat; }
-.in-plate .box2:hover { background-position: -171px 12px; cursor: pointer; }
-.in-plate .box2.act { background-position: -78px 12px; }
-.in-plate .box3 { background: url('../image/ddbox_3-s667c7064cc.png') 12px 12px no-repeat; }
-.in-plate .box3:hover { background-position: -171px 12px; cursor: pointer; }
-.in-plate .box3.act { background-position: -78px 12px; }
-.in-plate .box4 { background: url('../image/ddbox_4-s96f3096235.png') 12px 12px no-repeat; }
-.in-plate .box4:hover { background-position: -171px 12px; cursor: pointer; }
-.in-plate .box4.act { background-position: -78px 12px; }
+.in-plate .box1 { background: url('../image/ddbox_1-s433cac5460.png') 50% 12px no-repeat; }
+.in-plate .box1:hover { background-position: 50% -178px; cursor: pointer; }
+.in-plate .box1.act { background-position: 50% -83px; }
+.in-plate .box2 { background: url('../image/ddbox_2-s081473e284.png') 50% 12px no-repeat; width: 280px; }
+.in-plate .box2:hover { background-position: 50% -178px; cursor: pointer; }
+.in-plate .box2.act { background-position: 50% -83px; }
+.in-plate .box3 { background: url('../image/ddbox_3-s96d73f37da.png') 50% 12px no-repeat; width: 200px; }
+.in-plate .box3:hover { background-position: 50% -178px; cursor: pointer; }
+.in-plate .box3.act { background-position: 50% -83px; }
+.in-plate .box4 { background: url('../image/ddbox_4-se1dce564c6.png') 50% 12px no-repeat; width: 150px; }
+.in-plate .box4:hover { background-position: 50% -178px; cursor: pointer; }
+.in-plate .box4.act { background-position: 50% -83px; }
 
 /* in-foot*/
 .in-foot { font-size: 14px; color: #555; background-color: #eaeaea; padding: 15px 0px; }
