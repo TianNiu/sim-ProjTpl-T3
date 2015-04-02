@@ -7,10 +7,10 @@
 // ----- Font Face ----- //
 // -> https://github.com/thoughtbot/bourbon/edit/master/app/assets/stylesheets/css3/_font-face.scss#
 //
-// $family - the font-family
-// $path - the font path
-// $weight - the font-weight
-// $style - the font-style
+// $family - 字体类型
+// $path - 字体路径
+// $weight - 字重
+// $style - 字体样式
 // $asset-pipeline - use the Rails asset pipeline (boolean)
 
 @mixin font-face($family, $path, $weight: normal, $style: normal, $asset-pipeline: true) {
@@ -153,5 +153,17 @@
             }
             ///
         }
+    }
+}
+
+// ----- inline-block ----- //
+// -> 自定义inline-block生成宏
+//
+// $support-ie7 : 是否支持ie7
+@mixin sim-inline-block($support-ie7: true) {
+    display: inline-block;
+    @if $support-ie7 {
+        *display: inline;
+        *zoom: 1;
     }
 }

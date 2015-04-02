@@ -28,9 +28,11 @@ $in-body_width: 1000px;
                 }
             }
             .it {
+                //通用
                 padding: 10px 30px;
                 text-indent: 1em;
-                @include compass-icons-collection(#{"S_icons_nav"}, $G_offset-x: 10px, $G_offset-y: 15px,$sprite-base-class: ".it", $map-align: 50%);
+                //分化
+                @include compass-icons-collection(#{"S_icons_nav"}, $G_offset-x: 10px, $G_offset-y: 15px, $map-align: 50%);
             }
         }
     }
@@ -69,7 +71,16 @@ $in-body_width: 1000px;
             width: 150px;
         }
     }
-    @at-root .in-case {}
+    //in-tags
+    @at-root .in-tags {
+        .it {
+            @include sim-inline-block;
+        }
+    }
+    //in-dogs
+    @at-root .in-dogs{
+        
+    }
 }
 
 /* in-foot*/
