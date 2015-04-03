@@ -1,0 +1,12 @@
+{
+  "name": "somename",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "findit": "^2.0.0",
+    "fs-extra": "^0.18.0",
+    "gulp": "^3.8.11",
+    "gulp-compass": "^2.0.4"
+  }
+}
