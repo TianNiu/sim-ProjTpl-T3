@@ -18,7 +18,7 @@ exports.rmCssMap = function() {
         if (/map$/i.test(file)) {
             fs.remove(file, function(err) {
                 if (err) return console.error(err);
-                console.log('成功删除css map文件。');
+                console.log('成功删除css map文件：'+file);
             });
         }
     });

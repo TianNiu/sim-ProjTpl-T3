@@ -5,5 +5,6 @@ module.exports = {
     global_destdir: "./Release/",
     css_dir: "./Release/css",
     img_dir: "./Release/image/",
-    useless_dir_prefix: "SP_"
+    useless_dir_prefix: "SP_",
+    js_dir: "./Release/js/"
 };
