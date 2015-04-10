@@ -1,5 +1,5 @@
 /************************************************
- * CssHandler,CSS文件处理模块
+ * JsHandler,JS文件处理模块
  ************************************************/
 var fs = require('fs-extra');
 var fs_raw = require('fs');
@@ -7,16 +7,20 @@ var findit = require('findit');
 //删除注释模块
 var strip = require('strip-comment');
 //var normalizeNewline = require('normalize-newline');
-var newline = require('newline');
+//var newline = require('newline');
 //newline
 //var removeNewline = require('newline-remove');
 //var streamNewline = require("stream-newline");
 //var gulp = require('gulp');
 //var removeEmptyLines = require('gulp-remove-empty-lines');
-
+//引入配置
 var Config = require("./Config");
 //发布版的js文件存放路径:Config.js_dir
-
+/**
+ * 去除JS文件中的注释
+ * 问题：删除注释后会产生空白行
+ * @return {[type]} [description]
+ */
 exports.rmJsComments = function() {
     //获得finder对象
     var finder = findit(Config.js_dir);

@@ -3,7 +3,7 @@
  ************************************************/
 var fs = require('fs-extra');
 var findit = require('findit');
-
+//引入配置
 var Config = require("./Config");
 //Config.css_dir
 //var css_dir = "./Temp/css";

@@ -7,6 +7,7 @@ var Config = require("./NodejsUtils/Config");
 var CssHandler = require("./NodejsUtils/CssHandler");
 var ImgHandler = require("./NodejsUtils/ImgHandler");
 var JsHandler = require("./NodejsUtils/JsHandler");
+var ReadMeHandler = require("./NodejsUtils/ReadMeHandler");
 
 //定义忽略文件名列表
 var ignore_ls = [".sass-cache", "npm-debug.log", "compass_watch.bat", "config.rb", "gulpfile.js", "node_modules", "package.json"];
@@ -94,6 +95,7 @@ getUsefulPathArr(default_rootpath, function() {
     console.log("文件复制完毕");
     //复制完毕后处理CSS文件
     CssHandler.rmCssMap();
+    ReadMeHandler.rmReadmeFile();
     //删除compass精灵图片缓存文件夹
     ImgHandler.rmCompassSpriteDir();
     //删除js文件中的注释
