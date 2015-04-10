@@ -10,7 +10,7 @@ var JsHandler = require("./NodejsUtils/JsHandler");
 var ReadMeHandler = require("./NodejsUtils/ReadMeHandler");
 
 //定义忽略文件名列表
-var ignore_ls = [".sass-cache", "npm-debug.log", "compass_watch.bat", "config.rb", "gulpfile.js", "node_modules", "package.json"];
+//var ignore_ls = [".sass-cache", "npm-debug.log", "config.rb", "gulpfile.js", "node_modules", "package.json"];
 var useful_ls = [];
 //Config.global_destdir
 //var global_destdir = "./Release/";
@@ -25,8 +25,8 @@ var default_rootpath = "./";
 function removeIgnoreFromArr(old_arr, callback) {
     //新数组
     useful_ls = old_arr.slice(0);
-    for (var j = 0; j < ignore_ls.length; j++) {
-        useful_ls.splice(useful_ls.indexOf(ignore_ls[j]), 1);
+    for (var j = 0; j < Config.ignore_ls.length; j++) {
+        useful_ls.splice(useful_ls.indexOf(Config.ignore_ls[j]), 1);
     }
     //next
     callback();

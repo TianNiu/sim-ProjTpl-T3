@@ -1,1 +1,2 @@
 node Release.js
+pause
