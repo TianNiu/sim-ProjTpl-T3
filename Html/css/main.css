@@ -62,20 +62,22 @@ table { width: 100%; }
 /* custom_plugin,end*/
 /* component,end*/
 /* structure*/
-/* index(in),首页*/
-/* in-top-rap*/
-.in-top-rap { background-color: #9BD7FB; }
-.in-top { width: 1000px; margin: 0px auto; height: 60px; }
-.in-top ul li { float: left; }
-.in-top ul a { display: block; font-size: 16px; color: #333; }
-.in-top ul a:hover { text-decoration: none; }
-.in-top ul .it { padding: 10px 30px; text-indent: 1em; }
-.in-top ul .it.it-1 { background: url('../image/S_icons_nav-s42940a83f1.png') 8px 15px no-repeat; }
-.in-top ul .it.it-2 { background: url('../image/S_icons_nav-s42940a83f1.png') 8px -21px no-repeat; }
-.in-top ul .it.it-3 { background: url('../image/S_icons_nav-s42940a83f1.png') 8px -57px no-repeat; }
-.in-top ul .it.it-4 { background: url('../image/S_icons_nav-s42940a83f1.png') 8px -93px no-repeat; }
-.in-top ul .it.it-5 { background: url('../image/S_icons_nav-s42940a83f1.png') 8px -129px no-repeat; }
-.in-top ul .it.it-6 { background: url('../image/S_icons_nav-s42940a83f1.png') 10px -165px no-repeat; }
+.G-top-R { background-color: #9BD7FB; height: 80px; }
+
+.G-nav { width: 1000px; margin: 0px auto; height: 60px; }
+.G-nav ul li { float: left; }
+.G-nav ul a { display: block; font-size: 16px; color: #333; }
+.G-nav ul a:hover { text-decoration: none; }
+.G-nav ul .it { padding: 10px 30px; text-indent: 1em; }
+.G-nav ul .it.it-1 { background: url('../image/S_icons_nav-s42940a83f1.png') 8px 15px no-repeat; }
+.G-nav ul .it.it-2 { background: url('../image/S_icons_nav-s42940a83f1.png') 8px -21px no-repeat; }
+.G-nav ul .it.it-3 { background: url('../image/S_icons_nav-s42940a83f1.png') 8px -57px no-repeat; }
+.G-nav ul .it.it-4 { background: url('../image/S_icons_nav-s42940a83f1.png') 8px -93px no-repeat; }
+.G-nav ul .it.it-5 { background: url('../image/S_icons_nav-s42940a83f1.png') 8px -129px no-repeat; }
+.G-nav ul .it.it-6 { background: url('../image/S_icons_nav-s42940a83f1.png') 10px -165px no-repeat; }
+
+.G-foot { font-size: 12px; color: #555; background-color: #A5C8CF; padding: 15px 0px; }
+.G-foot p { text-align: center; height: 16px; line-height: 16px; }
 
 /* in-main*/
 .in-main { width: 1000px; background-color: #fff; margin: 0px auto; }
@@ -94,11 +96,6 @@ table { width: 100%; }
 .in-plate .box4.act { background-position: 50% -83px; }
 .in-tags .it { display: inline-block; *display: inline; *zoom: 1; }
 
-/* in-foot*/
-.in-foot { font-size: 14px; color: #555; background-color: #eaeaea; padding: 15px 0px; }
-.in-foot p { text-align: center; line-height: 20px; }
-
-/* index(in),首页,end*/
 /* structure,end*/
 
 /*# sourceMappingURL=main.css.map */

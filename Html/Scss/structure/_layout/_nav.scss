@@ -1,0 +1,32 @@
+//index固定居中宽度：1000px
+$in-body_width: 1000px;
+
+//G 页首
+.G-nav-R {
+    //.G-nav
+    @at-root .G-nav {
+        width: $in-body_width;//页面宽度
+        margin: 0px auto;//居中
+        height: 60px;
+        ul {
+            li {
+                float: left;
+            }
+            a {
+                display: block;
+                font-size: 16px;
+                color: #333;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+            .it {
+                //通用
+                padding: 10px 30px;
+                text-indent: 1em;
+                //分化
+                @include compass-icons-collection(#{"S_icons_nav"}, $G_offset-x: 10px, $G_offset-y: 15px, $map-align: 50%);
+            }
+        }
+    }
+}
