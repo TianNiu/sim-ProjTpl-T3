@@ -76,7 +76,13 @@ table { width: 100%; }
 /* custom_plugin,end*/
 /* component,end*/
 /* structure*/
-.G-top-R { background-color: #9BD7FB; height: 80px; }
+.G-top-R { width: auto; height: 81px; background-color: #9BD7FB; border-bottom: 1px solid #aaa; }
+.G-top { width: 1000px; margin: 0px auto; position: relative; }
+.G-logo { padding-top: 10px; width: 240px; height: 80px; }
+.G-logoT { height: 80px; color: #333; font-size: 28px; padding-top: 35px; }
+.G-top-shortcut { top: 5px; right: 0px; position: absolute; }
+.G-top-shortcut li { float: left; padding: 0px 5px; }
+.G-top-shortcut a { display: block; font-size: 12px; color: #404040; text-decoration: underline; }
 
 .G-nav { width: 1000px; margin: 0px auto; height: 60px; }
 .G-nav ul li { float: left; }

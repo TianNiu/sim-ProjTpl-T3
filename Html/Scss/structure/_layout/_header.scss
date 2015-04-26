@@ -1,8 +1,50 @@
-//index固定居中宽度：1000px
-$in-body_width: 1000px;
-
 //G 页首
+///页面变量:页首底部边框
+$G_header-rap-border_width: 0px 0px 1px 0px;
+$G_header-rap-border-style: solid;
+$G_header-rap-border-color: #aaa;
+
+//$G_header-rap-border:3px solid #333;
 .G-top-R {
-    background-color: #9BD7FB;
-    height: 80px;
+    width: $s-width-G_header-rap;
+    height: $s-height-G_header-rap + nth($G_header-rap-border_width, 1) + nth($G_header-rap-border_width, 3);
+    background-color: $c-G_header-rap-bg;
+    border-bottom: nth($G_header-rap-border_width, 3) $G_header-rap-border-style $G_header-rap-border-color;
+    ///G-top
+    @at-root .G-top {
+        width: $s-width-G_header;
+        margin: 0px auto;
+        position: relative;
+        ///G-logo,logo
+        @at-root .G-logo {
+        	//padding-top微调,$s-height-G_header-rap - image-height("../image/logo.png") -> 总间隙
+        	//padding-top=总间隙时候，图片紧贴G_header-rap底部
+            padding-top: $s-height-G_header-rap - image-height("../image/logo.png") - 0px;
+            width: image-width("../image/logo.png");
+            height: $s-height-G_header-rap;
+        }
+        ///G-logoT,logo文字
+        @at-root .G-logoT{
+        	height: $s-height-G_header-rap;
+			color: #333;
+			font-size: 28px;
+			padding-top: 35px;
+        }
+        ///G-top-shortcut,站点快速通道
+        @at-root .G-top-shortcut{
+        	top: 5px;
+			right: 0px;
+			position: absolute;
+			li{
+				float: left;
+				padding: 0px 5px;
+			}
+			a{
+				display: block;
+				font-size: 12px;
+				color: lighten(#000, 25);
+				text-decoration: underline;
+			}
+        }
+    }
 }
