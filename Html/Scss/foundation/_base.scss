@@ -15,7 +15,7 @@ html {
     background: $c-background;
     //color: $c-text;
     //html基本字体
-    font-family: $b-fontFamily;
+    font-family: $f-family;
     //font-size: $b-fontSize;
     //line-height: $b-lineHeight;
     @include box-sizing(border-box);
@@ -42,41 +42,50 @@ body {
 ///}
 
 // ----- Headings 标题基础样式 ----- //
-/// 暂停使用
-///h1, .h1,
-///h2, .h2,
-///h3, .h3,
-///h4, .h4 {
-///    font-family: $b-fontFamily-heading;
-///    font-weight: bold;
-///    line-height: 1.2;
-///    //margin-bottom: $b-space-xs;
-///    margin-top: 0;
-///}
-///
-///h1, .h1 {
-///    font-size: 200%;
-///}
-///
-///h2, .h2 {
-///    font-size: 150%;
-///}
-///
-///h3, .h3 {
-///    font-size: 125%;
-///}
-///
-///h4, .h4 {
-///    font-size: 110%;
-///}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    font-family: $f-family-heading;
+    font-weight: $f-weight-heading;
+    line-height: 1.2;
+    //margin-bottom: $b-space-xs;
+    margin-top: 0;
+}
+
+h1, .h1 {
+    font-size: $f-h1-size;
+}
+
+h2, .h2 {
+    font-size: $f-h2-size;
+}
+
+h3, .h3 {
+    font-size: $f-h3-size;
+}
+
+h4, .h4 {
+    font-size: $f-h4-size;
+}
+
+h5, .h5 {
+    font-size: $f-h5-size;
+}
+
+h6, .h6 {
+    font-size: $f-h6-size;
+}
 
 // ----- Links,链接基础样式 ----- //
 
 a {
     //border-bottom: $b-border;
-    font-family: $b-fontFamily-a;
+    font-family: $f-family-a;
     //链接默认颜色
-    color: #333;
+    color: $c-a-default;
     //已在reset中指定
     //text-decoration: none;
     &:hover,
@@ -97,8 +106,7 @@ img {
 }
 
 // ----- 表格 基础样式----- //
-
-table{
+//表格默认宽度置为100%
+table {
     width: 100%;
 }
-

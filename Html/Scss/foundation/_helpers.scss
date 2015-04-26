@@ -4,13 +4,13 @@
 //
 // *************************************
 //_function
-@import "helpers/_function";
+@import "_helpers/_function";
 //_mixin
-@import "helpers/_mixin";
+@import "_helpers/_mixin";
 //_tool
-@import "helpers/_tool";
+@import "_helpers/_tool";
 //_animation
-@import "helpers/_animation";
+@import "_helpers/_animation";
 //_placeholder 在main.scss文件里面调整其加载顺序到base之后
 
 
