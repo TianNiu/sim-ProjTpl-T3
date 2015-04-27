@@ -33,7 +33,7 @@ $G_header-rap-border-color: #aaa;
         ///G-top-shortcut,站点快速通道
         @at-root .G-top-shortcut{
         	top: 5px;
-			right: 0px;
+			right: 100px;
 			position: absolute;
 			li{
 				float: left;
@@ -45,6 +45,24 @@ $G_header-rap-border-color: #aaa;
 				color: lighten(#000, 25);
 				text-decoration: underline;
 			}
+        }
+        ///G-welcome
+        @at-root .G-welcome{
+            font-size: 12px;
+            position: absolute;
+            right: 0px;
+            top: 55px;   
+            a{
+                padding-right: 5px;
+            }
+            ///用户名
+            .uname{
+                color: #DC4B4B;
+            }
+            ///设置
+            .sets{
+
+            }
         }
     }
 }

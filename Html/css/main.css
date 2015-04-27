@@ -80,9 +80,12 @@ table { width: 100%; }
 .G-top { width: 1000px; margin: 0px auto; position: relative; }
 .G-logo { padding-top: 10px; width: 240px; height: 80px; }
 .G-logoT { height: 80px; color: #333; font-size: 28px; padding-top: 35px; }
-.G-top-shortcut { top: 5px; right: 0px; position: absolute; }
+.G-top-shortcut { top: 5px; right: 100px; position: absolute; }
 .G-top-shortcut li { float: left; padding: 0px 5px; }
 .G-top-shortcut a { display: block; font-size: 12px; color: #404040; text-decoration: underline; }
+.G-welcome { font-size: 12px; position: absolute; right: 0px; top: 55px; }
+.G-welcome a { padding-right: 5px; }
+.G-welcome .uname { color: #DC4B4B; }
 
 .G-nav { width: 1000px; margin: 0px auto; height: 60px; }
 .G-nav ul li { float: left; }
